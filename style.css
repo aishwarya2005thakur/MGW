@@ -247,7 +247,7 @@ body {
   
 }
 body{
-    background-color: #3e4040;
+    background-color:#161a1f ;
 }
 
 
@@ -280,7 +280,7 @@ body{
 }
 
 .box h2 {
-    color: #2c3e50;
+    
     margin-bottom: 1rem;
 }
 
@@ -332,7 +332,7 @@ body{
 }
 
 .panel h2 {
-    color: #2c3e50;
+   
     margin-bottom: 1rem;
 }
 
@@ -415,7 +415,6 @@ body{
 /*contact info*/
 
 
-
 .info{
     height: 400px;
     width: 23%;
@@ -430,6 +429,7 @@ body{
        }  
    
    .footer-section {
+    background-color: #161a1f; 
        margin-bottom: 15px;
        color:white;
        transition: background-color 0.3s ease;
