@@ -253,6 +253,103 @@ body{
 
 /*hero section*/
 
+/*services offered*/
+
+
+
+.facilities-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 2rem;
+    background-color: #1d2228;
+}
+
+
+.box{
+    background-color: #fff;
+    padding: 2rem;
+    height:200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+            
+.box:hover{
+    transform: translateY(-10px);
+}
+
+.box h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.box i {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.box1{
+    margin:5%;
+}
+
+.box2{
+    padding-left:10px;
+    padding-bottom:10px;
+    margin:5%;
+}
+
+.box3{
+    padding-left:10px;
+    padding-bottom:10px;
+    margin:5%;
+}
+
+.box4{
+    padding-left:10px;
+    padding-bottom:10px;
+    margin:5%;
+
+}
+
+
+
+/*additional information on the features*/
+
+.services-section {
+    display: flex;
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.section-left {
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.panel {
+    margin-bottom: 2rem;
+}
+
+.panel h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.section-right {
+    flex: 1;
+}
+
+.feature-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
 /*image slider*/
 
 .hero-section {
@@ -313,9 +410,6 @@ body{
 #slide-btn-right {
     right: 1rem;
 }
-
-
-
 
 
 /*contact info*/
