@@ -19,7 +19,7 @@ body {
 
 #navbar {
     background-color:#161a1f; 
-    height: 80px; 
+    height: 60px; 
     width: 100%;
     display: flex;
     align-items: center;
@@ -150,7 +150,7 @@ body {
 
 #search-bar {
     background-color:#1d2228; 
-    height: 80px; 
+    height: 60px; 
     width: 100%;
     align-items: center;
     padding: 0 30px;
@@ -246,6 +246,9 @@ body {
     
   
 }
+body{
+    background-color: #3e4040;
+}
 
 
 /*hero section*/
@@ -253,7 +256,7 @@ body {
 /*image slider*/
 
 .hero-section {
-    margin-top: 60px;
+    margin-top: 0px;
     position: relative;
     height: 80vh;
     overflow: hidden;
@@ -290,13 +293,32 @@ body {
     width:100%;
     
 }
-  
+          
+.slider-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#slide-btn-left {
+    left: 1rem;
+}
+
+#slide-btn-right {
+    right: 1rem;
+}
 
 
 
 
 
-/*contact info
+/*contact info*/
 
 
 
@@ -367,4 +389,4 @@ footer {
     display: none;
 }
 
-*/
+
