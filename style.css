@@ -181,7 +181,15 @@ display:flex;
 
 /*search bar pannel*/
 
-
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 0 20px;
+    border-radius: 2 px;
+    width: 100%;
+    box-sizing: border-box;
+}
 
 .item-links-pages a {
     color: #ffffff; 
@@ -226,21 +234,13 @@ display:flex;
     color:#ffffff; 
     transform: scale(1.2); 
 }
-/*  
-.search-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    width: 100%;
-    box-sizing: border-box;
-}
+
 
 .item-links-pages {
     display: flex;
     align-items: center;
 }
-*/
+
 
 @media (max-width: 768px) {
     .nav-links {
@@ -414,8 +414,20 @@ body{
     right: 1rem;
 }
 
+/* items to be sold */
 
-/*contact info*/
+
+
+
+
+
+
+
+
+
+
+
+/*contact info in footer*/
 
 
 .info{
