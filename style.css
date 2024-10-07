@@ -159,6 +159,8 @@ body {
 }
 
 /*address */ 
+
+
 .address-icon{
    padding-left:2 rem;
 }
@@ -168,21 +170,18 @@ display:flex;
 
 }
 .address1{
-    size:1 rem;
+    size:0.5 rem;
     margin-left: 2px;
 }
 
 .address2{
-    size:2 rem;
+    size:1 rem;
     font-weight: bold;
 }
 
 /*search bar pannel*/
 
-.search-bar nav {
-    display: flex;
-    align-items: center;
-}
+
 
 .item-links-pages a {
     color: #ffffff; 
@@ -227,7 +226,7 @@ display:flex;
     color:#ffffff; 
     transform: scale(1.2); 
 }
-
+/*  
 .search-bar {
     display: flex;
     justify-content: space-between;
@@ -241,24 +240,7 @@ display:flex;
     display: flex;
     align-items: center;
 }
-
-.sign-in-btn {
-    display: flex;
-    align-items: center;
-    background-color:#fb8122;
-    color: #ffffff;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.sign-in-btn:hover {
-    background-color:#b3540b ;
-}
-
-.sign-in-btn i {
-    margin-right: 5px;
-}
+*/
 
 @media (max-width: 768px) {
     .nav-links {
