@@ -159,25 +159,25 @@ body {
 }
 
 /*address */ 
+.address-icon{
+   padding-left:2 rem;
+}
 
 .address{
-  
-    size:2 rem;
-}
+display:flex;
 
-.addess-icon{
-    display: flex;
-    align-items: center;
 }
-
 .address1{
     size:1 rem;
     margin-left: 2px;
 }
 
 .address2{
-    size:1 rem;
+    size:2 rem;
+    font-weight: bold;
 }
+
+/*search bar pannel*/
 
 .search-bar nav {
     display: flex;
