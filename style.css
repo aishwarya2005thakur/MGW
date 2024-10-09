@@ -315,42 +315,65 @@ body{
 
 }
 
+/*shop section*/
 
 
-/*additional information on the features*/
-
-.services-section {
+.shop-section{
     display: flex;
+    justify-content: space-around;
     padding: 4rem 2rem;
+    background-color: #1d2228;
+}
+
+
+.pannel{
+    display: flex;
     background-color: #fff;
+    border: 2px solid black;
+    padding: 2rem;
+    height:400px;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+            
+.pannel:hover{
+    transform: translateY(-10px);
 }
 
-.section-left {
-    flex: 1;
-    padding-right: 2rem;
-}
-
-.panel {
-    margin-bottom: 2rem;
-}
-
-.panel h2 {
-   
+.pannel h2 {
     margin-bottom: 1rem;
 }
 
-.section-right {
-    flex: 1;
+.pannel i {
+    font-size: 3rem;
+    margin-top: 1rem;
 }
 
-.feature-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.pannel1{
+    margin:5%;
 }
 
+.pannel2{
+    padding-left:10px;
+    padding-bottom:10px;
+    margin:5%;
+}
 
+.pannel3{
+    padding-left:10px;
+    padding-bottom:10px;
+    margin:5%;
+}
+
+.pannel4{
+    padding-left:10px;
+    padding-bottom:10px;
+    margin:5%;
+
+}
 
 
 /*image slider*/
@@ -413,18 +436,6 @@ body{
 #slide-btn-right {
     right: 1rem;
 }
-
-/* items to be sold */
-
-
-
-
-
-
-
-
-
-
 
 
 /*contact info in footer*/
